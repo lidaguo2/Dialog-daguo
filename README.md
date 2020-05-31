@@ -5,25 +5,25 @@
 + ### 第一步，引用js和css，必须要引入jquery库 ###
 + ### 第二步，将html代码写在网页上，任意位置即可 ###
 + ***
-`
-	<div class="da-fade">
-		<div class="da-dialog da-middle" id="dialog">
-			<div class="da-content">
-				<div class="da-header">
-					<button type="button" class="close"><span>×</span></button>
-					<h4 class="da-title">标题</h4>
-				</div>
-				<div class="da-body">
-					<p>主题内容...</p>
-				</div>
-				<div class="da-footer">
-					<button type="button" class="btn-default">关闭</button>
-					<button type="button" class="btn-primary">保存</button>
+
+		<div class="da-fade">
+			<div class="da-dialog da-middle" id="dialog">
+				<div class="da-content">
+					<div class="da-header">
+						<button type="button" class="close"><span>×</span></button>
+						<h4 class="da-title">标题</h4>
+					</div>
+					<div class="da-body">
+						<p>主题内容...</p>
+					</div>
+					<div class="da-footer">
+						<button type="button" class="btn-default">关闭</button>
+						<button type="button" class="btn-primary">保存</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-`
+
 		
 ***
 ### 第三步，JSAPI ###
