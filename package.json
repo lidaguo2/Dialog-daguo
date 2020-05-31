@@ -1,0 +1,22 @@
+{
+  "name": "dialog-daguo",
+  "version": "1.0.0",
+  "description": "dialog对话框组件，支持移动的手势操作，丰富的参数配置",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "对话框，dialog"
+  ],
+  "author": "daguo",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
+}

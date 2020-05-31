@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>对话框</title>
+		<!-- <link rel="stylesheet" type="text/css" href="../src/index.css" /> -->
+		<link rel="stylesheet" type="text/css" href="../dist/dialog-daguo.min.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<!-- 点我 -->
+		<button type="button"  class="btn-s" id="cli">点我</button>
+		<div class="da-fade">
+			<div class="da-dialog da-middle" id="dialog">
+				<div class="da-content">
+					<div class="da-header">
+						<button type="button" class="close"><span>×</span></button>
+						<h4 class="da-title">标题</h4>
+					</div>
+					<div class="da-body">
+						<p>主题内容...</p>
+					</div>
+					<div class="da-footer">
+						<button type="button" class="btn-default">关闭</button>
+						<button type="button" class="btn-primary">保存</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+<script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="../src/index.js" type="text/javascript" charset="utf-8"></script> -->
+<script src="../dist/dialog-daguo.min.js"></script>
+<script type="text/javascript">
+	var options = {
+		id: "dialog",
+		tit: "操作成功", //标题
+		conts: "我是内容",
+		location:"center",//居中center，top顶部居中对齐，left顶部靠左对齐，right，顶部靠右对齐..也可以设置具体的位置,[{top:2,right:3,bottom:5,left:5}]
+		_w: 300, //提示框的高，最小150px；
+		_h: 200, //提示框的宽，最小150px
+		callback: wancheng ,//用户自定义回调函数名称
+		move:true,//如果需要移动，move:true
+	}
+	function wancheng() {
+		// 用户保存后需要干的事
+		console.log("保存");
+	}
+	cli.onclick = function() {
+		dia.onclick("dialog");
+	}
+	var dialog01 = new Dialog(options);
+	
+</script>
