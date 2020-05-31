@@ -5,7 +5,7 @@
 + ### 第一步，引用js和css，必须要引入jquery库 ###
 + ### 第二步，将html代码写在网页上，任意位置即可 ###
 + ***
-`<div class="da-fade">
+`		<div class="da-fade">
 			<div class="da-dialog da-middle" id="dialog">
 				<div class="da-content">
 					<div class="da-header">
@@ -21,7 +21,8 @@
 					</div>
 				</div>
 			</div>
-		</div>`
+		</div>
+`
 		
 ***
 ### 第三步，JSAPI ###
